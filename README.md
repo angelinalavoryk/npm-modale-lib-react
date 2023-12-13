@@ -19,7 +19,7 @@ Une fois l'installation terminée, la bibliothèque est prête à être utilisé
 
  ## :triangular_flag_on_post: Utilisation
 
-exemple d'utilisation dans un projet : :arrow_heading_down:
+exemple d'utilisation dans un projet :arrow_heading_down:
 
  1. Dans le composant où vous souhaitez afficher la modale, créez un état pour gérer sa visibilité :
  ``` 
