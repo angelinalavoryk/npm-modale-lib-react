@@ -11,18 +11,26 @@ Une fois l'installation terminée, la bibliothèque est prête à être utilisé
 ## Importation
 
  1. Dans le composant où vous souhaitez utiliser la modale, importez la bibliothèque en haut de votre fichier :
- ` import { Modale } from "modal-react-lib-projet-14"; `
+ ``` 
+ import { Modale } from "modal-react-lib-projet-14"; 
+ 
+ ```
 
  ## Utilisation
 
 exemple d'utilisation dans un projet: 
 
  1. Dans le composant où vous souhaitez afficher la modale, créez un état pour gérer sa visibilité :
- ` import React, { useState } from 'react'; `
- ` const [isConfirmationVisible, setIsConfirmationVisible] = useState(false); `
+ ``` 
+ import React, { useState } from 'react'; 
+ ```
+ ``` 
+ const [isConfirmationVisible, setIsConfirmationVisible] = useState(false); 
+ ```
 
  2. Dans votre composant, utilisez la modale en ajoutant le code suivant où vous souhaitez afficher la modale :
- ` {isConfirmationVisible && (
+ ``` 
+ {isConfirmationVisible && (
   <div className="overlay">
     <Modale
       showModal={isConfirmationVisible}
@@ -30,7 +38,8 @@ exemple d'utilisation dans un projet:
       message="Employee Created !"
     />
   </div>
-)} `
+)} 
+```
 
 ` showModal ` : C'est un booléen qui indique si la modale doit être affichée ou non.
 ` closeModal ` : C'est une fonction de rappel que vous devez définir pour fermer la modale lorsque nécessaire.
