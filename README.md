@@ -1,7 +1,7 @@
 # Modale - Projet 14 - OpenClassrooms
 `npm-modale-lib-react` est une librairie React qui permet d'afficher une modale de confirmation de sauvegarde de formulaire.
 
-![Image de démonstration](https://github.com/angelinalavoryk/images/blob/main/lib-npm-modale.png)
+![Image de démonstration](https://github.com/angelinalavoryk/images/blob/main/npm-modale.png)
 
 Pour utiliser cette librairie dans votre projet React, suivez ces étapes :
 
