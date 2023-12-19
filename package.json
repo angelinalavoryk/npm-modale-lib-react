@@ -7,7 +7,7 @@
     "components",
     "modale"
   ],
-  "version": "0.9.4",
+  "version": "0.9.8",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
